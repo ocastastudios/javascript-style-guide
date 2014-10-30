@@ -86,6 +86,29 @@ if (true)
 
 Also, notice the use of whitespace before and after the condition statement.
 
+For the if/else statement, `else` goes on a new line.
+
+*Right:*
+
+```js
+if (true) {
+  console.log('winning');
+}
+else {
+  console.log('not winning');
+}
+```
+
+*Wrong:*
+
+```js
+if (true) {
+  console.log('losing');
+} else {
+  console.log('more losing');
+}
+```
+
 ## Method chaining
 
 One method per line should be used if you want to chain methods.
